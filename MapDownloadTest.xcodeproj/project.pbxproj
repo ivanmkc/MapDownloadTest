@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9E1AAF01FBEC5DA00003575 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E1AAEF1FBEC5DA00003575 /* AppDelegate.swift */; };
+		C9E1AAF21FBEC5DA00003575 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E1AAF11FBEC5DA00003575 /* ViewController.swift */; };
+		C9E1AAF51FBEC5DA00003575 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9E1AAF31FBEC5DA00003575 /* Main.storyboard */; };
+		C9E1AAF71FBEC5DA00003575 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9E1AAF61FBEC5DA00003575 /* Assets.xcassets */; };
+		C9E1AAFA1FBEC5DA00003575 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9E1AAF81FBEC5DA00003575 /* LaunchScreen.storyboard */; };
+		C9E1AB051FBEC5DB00003575 /* MapDownloadTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E1AB041FBEC5DB00003575 /* MapDownloadTestUITests.swift */; };
+		DC61EA399CD234E42421F5D5 /* Pods_MapDownloadTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4935A364A152ABF9D15E1D7 /* Pods_MapDownloadTest.framework */; };
+		F3AE2C5C5BDFCF0B52541251 /* Pods_MapDownloadTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1586831CBF0E99DBF8C4D99 /* Pods_MapDownloadTestUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9E1AB011FBEC5DB00003575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9E1AAE41FBEC5DA00003575 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9E1AAEB1FBEC5DA00003575;
+			remoteInfo = MapDownloadTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3485F75C8E344BC822238014 /* Pods-MapDownloadTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapDownloadTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapDownloadTest/Pods-MapDownloadTest.debug.xcconfig"; sourceTree = "<group>"; };
+		659B5321A059D0758ADA185A /* Pods-MapDownloadTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapDownloadTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapDownloadTestUITests/Pods-MapDownloadTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B4935A364A152ABF9D15E1D7 /* Pods_MapDownloadTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapDownloadTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BECDA78F807F7EA1EC95B69D /* Pods-MapDownloadTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapDownloadTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapDownloadTestUITests/Pods-MapDownloadTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C9E1AAEC1FBEC5DA00003575 /* MapDownloadTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapDownloadTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9E1AAEF1FBEC5DA00003575 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9E1AAF11FBEC5DA00003575 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C9E1AAF41FBEC5DA00003575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9E1AAF61FBEC5DA00003575 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9E1AAF91FBEC5DA00003575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9E1AAFB1FBEC5DA00003575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9E1AB001FBEC5DB00003575 /* MapDownloadTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapDownloadTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9E1AB041FBEC5DB00003575 /* MapDownloadTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDownloadTestUITests.swift; sourceTree = "<group>"; };
+		C9E1AB061FBEC5DB00003575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8461567CD963E72A6CD551C /* Pods-MapDownloadTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapDownloadTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapDownloadTest/Pods-MapDownloadTest.release.xcconfig"; sourceTree = "<group>"; };
+		E1586831CBF0E99DBF8C4D99 /* Pods_MapDownloadTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapDownloadTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9E1AAE91FBEC5DA00003575 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC61EA399CD234E42421F5D5 /* Pods_MapDownloadTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9E1AAFD1FBEC5DB00003575 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3AE2C5C5BDFCF0B52541251 /* Pods_MapDownloadTestUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DEC7F9DBBDE977060C06AB4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3485F75C8E344BC822238014 /* Pods-MapDownloadTest.debug.xcconfig */,
+				D8461567CD963E72A6CD551C /* Pods-MapDownloadTest.release.xcconfig */,
+				659B5321A059D0758ADA185A /* Pods-MapDownloadTestUITests.debug.xcconfig */,
+				BECDA78F807F7EA1EC95B69D /* Pods-MapDownloadTestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B5F55A915D71E649413CD3FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4935A364A152ABF9D15E1D7 /* Pods_MapDownloadTest.framework */,
+				E1586831CBF0E99DBF8C4D99 /* Pods_MapDownloadTestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9E1AAE31FBEC5DA00003575 = {
+			isa = PBXGroup;
+			children = (
+				C9E1AAEE1FBEC5DA00003575 /* MapDownloadTest */,
+				C9E1AB031FBEC5DB00003575 /* MapDownloadTestUITests */,
+				C9E1AAED1FBEC5DA00003575 /* Products */,
+				7DEC7F9DBBDE977060C06AB4 /* Pods */,
+				B5F55A915D71E649413CD3FC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C9E1AAED1FBEC5DA00003575 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9E1AAEC1FBEC5DA00003575 /* MapDownloadTest.app */,
+				C9E1AB001FBEC5DB00003575 /* MapDownloadTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9E1AAEE1FBEC5DA00003575 /* MapDownloadTest */ = {
+			isa = PBXGroup;
+			children = (
+				C9E1AAEF1FBEC5DA00003575 /* AppDelegate.swift */,
+				C9E1AAF11FBEC5DA00003575 /* ViewController.swift */,
+				C9E1AAF31FBEC5DA00003575 /* Main.storyboard */,
+				C9E1AAF61FBEC5DA00003575 /* Assets.xcassets */,
+				C9E1AAF81FBEC5DA00003575 /* LaunchScreen.storyboard */,
+				C9E1AAFB1FBEC5DA00003575 /* Info.plist */,
+			);
+			path = MapDownloadTest;
+			sourceTree = "<group>";
+		};
+		C9E1AB031FBEC5DB00003575 /* MapDownloadTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C9E1AB041FBEC5DB00003575 /* MapDownloadTestUITests.swift */,
+				C9E1AB061FBEC5DB00003575 /* Info.plist */,
+			);
+			path = MapDownloadTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9E1AAEB1FBEC5DA00003575 /* MapDownloadTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9E1AB091FBEC5DB00003575 /* Build configuration list for PBXNativeTarget "MapDownloadTest" */;
+			buildPhases = (
+				89BB3774BDF1CB192FFDAB32 /* [CP] Check Pods Manifest.lock */,
+				C9E1AAE81FBEC5DA00003575 /* Sources */,
+				C9E1AAE91FBEC5DA00003575 /* Frameworks */,
+				C9E1AAEA1FBEC5DA00003575 /* Resources */,
+				AFA7D67866F7AF3BBF4A25E5 /* [CP] Embed Pods Frameworks */,
+				0D2EE4E544FC51F750A6D1DB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapDownloadTest;
+			productName = MapDownloadTest;
+			productReference = C9E1AAEC1FBEC5DA00003575 /* MapDownloadTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9E1AAFF1FBEC5DB00003575 /* MapDownloadTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9E1AB0C1FBEC5DB00003575 /* Build configuration list for PBXNativeTarget "MapDownloadTestUITests" */;
+			buildPhases = (
+				14F9764DB167D34EC33B8527 /* [CP] Check Pods Manifest.lock */,
+				C9E1AAFC1FBEC5DB00003575 /* Sources */,
+				C9E1AAFD1FBEC5DB00003575 /* Frameworks */,
+				C9E1AAFE1FBEC5DB00003575 /* Resources */,
+				E134E75E7183284ACCC4F7C8 /* [CP] Embed Pods Frameworks */,
+				D3AA0D6820F93779A443707D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9E1AB021FBEC5DB00003575 /* PBXTargetDependency */,
+			);
+			name = MapDownloadTestUITests;
+			productName = MapDownloadTestUITests;
+			productReference = C9E1AB001FBEC5DB00003575 /* MapDownloadTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9E1AAE41FBEC5DA00003575 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Tripverse Co";
+				TargetAttributes = {
+					C9E1AAEB1FBEC5DA00003575 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					C9E1AAFF1FBEC5DB00003575 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C9E1AAEB1FBEC5DA00003575;
+					};
+				};
+			};
+			buildConfigurationList = C9E1AAE71FBEC5DA00003575 /* Build configuration list for PBXProject "MapDownloadTest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9E1AAE31FBEC5DA00003575;
+			productRefGroup = C9E1AAED1FBEC5DA00003575 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9E1AAEB1FBEC5DA00003575 /* MapDownloadTest */,
+				C9E1AAFF1FBEC5DB00003575 /* MapDownloadTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9E1AAEA1FBEC5DA00003575 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E1AAFA1FBEC5DA00003575 /* LaunchScreen.storyboard in Resources */,
+				C9E1AAF71FBEC5DA00003575 /* Assets.xcassets in Resources */,
+				C9E1AAF51FBEC5DA00003575 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9E1AAFE1FBEC5DB00003575 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D2EE4E544FC51F750A6D1DB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapDownloadTest/Pods-MapDownloadTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		14F9764DB167D34EC33B8527 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MapDownloadTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89BB3774BDF1CB192FFDAB32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MapDownloadTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFA7D67866F7AF3BBF4A25E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MapDownloadTest/Pods-MapDownloadTest-frameworks.sh",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Mapbox.framework.dSYM",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapDownloadTest/Pods-MapDownloadTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3AA0D6820F93779A443707D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapDownloadTestUITests/Pods-MapDownloadTestUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E134E75E7183284ACCC4F7C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapDownloadTestUITests/Pods-MapDownloadTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9E1AAE81FBEC5DA00003575 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E1AAF21FBEC5DA00003575 /* ViewController.swift in Sources */,
+				C9E1AAF01FBEC5DA00003575 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9E1AAFC1FBEC5DB00003575 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E1AB051FBEC5DB00003575 /* MapDownloadTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9E1AB021FBEC5DB00003575 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9E1AAEB1FBEC5DA00003575 /* MapDownloadTest */;
+			targetProxy = C9E1AB011FBEC5DB00003575 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9E1AAF31FBEC5DA00003575 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9E1AAF41FBEC5DA00003575 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9E1AAF81FBEC5DA00003575 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9E1AAF91FBEC5DA00003575 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9E1AB071FBEC5DB00003575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9E1AB081FBEC5DB00003575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9E1AB0A1FBEC5DB00003575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3485F75C8E344BC822238014 /* Pods-MapDownloadTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75VGKZ4ABN;
+				INFOPLIST_FILE = MapDownloadTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.studio0.MapDownloadTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9E1AB0B1FBEC5DB00003575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8461567CD963E72A6CD551C /* Pods-MapDownloadTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75VGKZ4ABN;
+				INFOPLIST_FILE = MapDownloadTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.studio0.MapDownloadTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C9E1AB0D1FBEC5DB00003575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 659B5321A059D0758ADA185A /* Pods-MapDownloadTestUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75VGKZ4ABN;
+				INFOPLIST_FILE = MapDownloadTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.studio0.MapDownloadTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MapDownloadTest;
+			};
+			name = Debug;
+		};
+		C9E1AB0E1FBEC5DB00003575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BECDA78F807F7EA1EC95B69D /* Pods-MapDownloadTestUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75VGKZ4ABN;
+				INFOPLIST_FILE = MapDownloadTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.studio0.MapDownloadTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MapDownloadTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9E1AAE71FBEC5DA00003575 /* Build configuration list for PBXProject "MapDownloadTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9E1AB071FBEC5DB00003575 /* Debug */,
+				C9E1AB081FBEC5DB00003575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9E1AB091FBEC5DB00003575 /* Build configuration list for PBXNativeTarget "MapDownloadTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9E1AB0A1FBEC5DB00003575 /* Debug */,
+				C9E1AB0B1FBEC5DB00003575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9E1AB0C1FBEC5DB00003575 /* Build configuration list for PBXNativeTarget "MapDownloadTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9E1AB0D1FBEC5DB00003575 /* Debug */,
+				C9E1AB0E1FBEC5DB00003575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9E1AAE41FBEC5DA00003575 /* Project object */;
+}
